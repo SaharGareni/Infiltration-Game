@@ -4,4 +4,4 @@ To play:
 2) Extract the downloaded zip.
 3) Run the "Infiltration Game.exe"
 4) Enjoy.
-   Made from the tutoring of Sebastian Lague
+ Made from the tutoring of Sebastian Lague
