@@ -286,7 +286,7 @@ MonoBehaviour:
   speed: 5.03
   timeBetweenWaypoints: 0.72
   flashlight: {fileID: 3661856574245403746}
-  viewDistance: 10
+  viewDistance: 10.8
   viewMask:
     serializedVersion: 2
     m_Bits: 64

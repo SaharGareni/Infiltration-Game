@@ -8,11 +8,16 @@ public class UIManager : MonoBehaviour
     public GameObject playerWonScreen;
     public GameObject playerLostScreen;
     bool gameOver;
+    bool playerLost;
+    int totalLevels;
+    static int currentLevelIndex;
+
 
     void Start()
     {
         Guard.OnPlayerSpotted += OnGameLost;
         FindObjectOfType<Player>().OnPlayerWin += OnGameWon;
+        totalLevels = SceneManager.sceneCountInBuildSettings;
     }
 
     // Update is called once per frame
@@ -22,13 +27,23 @@ public class UIManager : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.Space))
             {
-                SceneManager.LoadScene(0);
+                if (playerLost)
+                {
+                    SceneManager.LoadScene(currentLevelIndex);
+                }
+                else
+                {
+                    currentLevelIndex++;
+                    currentLevelIndex = currentLevelIndex % totalLevels;
+                    SceneManager.LoadScene(currentLevelIndex);
+                }
             }
         }
     }
 
     void OnGameLost()
     {
+        playerLost = true;
         OnGameOver(playerLostScreen);
     }
     void OnGameWon()
