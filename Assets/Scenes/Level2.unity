@@ -8220,7 +8220,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Press space to try again.
+  m_text: Press space to proceed to the next level.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a6e642ce0387933479128cebf7539fe0, type: 2}
   m_sharedMaterial: {fileID: -6022803590211123602, guid: a6e642ce0387933479128cebf7539fe0, type: 2}
