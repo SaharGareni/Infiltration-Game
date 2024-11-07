@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 421428}
   - component: {fileID: 3359152}
   - component: {fileID: 2398846}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Mixed_Well_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94,7 +94,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5952321447393360785}
   - component: {fileID: 696220657856167117}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}

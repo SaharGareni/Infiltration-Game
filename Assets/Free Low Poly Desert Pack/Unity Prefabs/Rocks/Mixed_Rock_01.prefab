@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 447314}
   - component: {fileID: 3387234}
   - component: {fileID: 2363890}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Mixed_Rock_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -95,7 +95,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5905032312062748106}
   - component: {fileID: 835082551178833655}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -148,7 +148,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6800058682644180861}
   - component: {fileID: 3208855576131847041}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GameObject (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

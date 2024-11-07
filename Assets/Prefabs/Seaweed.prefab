@@ -14,12 +14,12 @@ GameObject:
   - component: {fileID: 3121548435749905647}
   - component: {fileID: 7758773143887159889}
   - component: {fileID: 3095982551446573527}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Arch (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &8468911314029331657
 Transform:
@@ -1195,7 +1195,7 @@ MeshCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
 --- !u!1 &4575051138452966353
@@ -1212,12 +1212,12 @@ GameObject:
   - component: {fileID: 5020734228920369232}
   - component: {fileID: 7912694773939977077}
   - component: {fileID: 7786736989638583003}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Arch (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &4883406745587900489
 Transform:
@@ -2873,7 +2873,7 @@ MeshCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
 --- !u!1 &5028920212503479734
@@ -2885,12 +2885,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4874987803203018734}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Seaweed
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &4874987803203018734
 Transform:

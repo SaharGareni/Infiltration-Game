@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 456462}
   - component: {fileID: 3396356}
   - component: {fileID: 2317480}
+  - component: {fileID: 4632473499971677140}
   m_Layer: 0
   m_Name: Flat_Well_01
   m_TagString: Untagged
@@ -83,3 +84,26 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!136 &4632473499971677140
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 133420}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 1.601391
+  m_Height: 4.4250984
+  m_Direction: 1
+  m_Center: {x: 0.047766685, y: 1.4941392, z: 0}
