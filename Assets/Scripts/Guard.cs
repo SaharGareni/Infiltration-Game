@@ -1,7 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditor.ShaderKeywordFilter;
+//using UnityEditor.ShaderKeywordFilter; dont need this
 using UnityEngine;
 
 public class Guard : MonoBehaviour

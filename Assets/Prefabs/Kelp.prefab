@@ -14,12 +14,12 @@ GameObject:
   - component: {fileID: 2768686972717562015}
   - component: {fileID: 2724306772679941234}
   - component: {fileID: 2359533922534456081}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Kelp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &2383254870585232289
 Transform:
@@ -11690,6 +11690,6 @@ MeshCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
